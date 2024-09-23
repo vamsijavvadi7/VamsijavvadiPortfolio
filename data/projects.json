@@ -49,9 +49,9 @@
   },
   {
     "title": "AI CareerGuru",
-    "description": "**AI Career Guru** is an innovative web application designed to navigate the modern job market with AI-driven insights. It offers personalized learning paths, resume optimization, interview preparation, and expert career guidance. Built using cutting-edge technologies like Next.js, Firebase, and powerful AI models such as ChatGPT,Gemini and Amazon Bedrock, AI Career Guru empowers users to make informed decisions, enhance their skills, and achieve career success. Whether you're just starting out or aiming to advance, AI Career Guru is your ultimate career companion.",
-    "source": "https://github.com/vamsijavvadi7/inventory-management-app",
-    "preview": "https://pantry-pal-app.vercel.app/",
+    "description": "AI Career Guru is an innovative web application designed to navigate the modern job market with AI-driven insights. It offers personalized learning paths, resume optimization, interview preparation, and expert career guidance. Built using cutting-edge technologies like Next.js, Firebase, and powerful AI models such as ChatGPT,Gemini and Amazon Bedrock, AI Career Guru empowers users to make informed decisions, enhance their skills, and achieve career success. Whether you're just starting out or aiming to advance, AI Career Guru is your ultimate career companion.",
+    "source": "https://github.com/vamsijavvadi7/customer-support-ai",
+    "preview": "https://ai-careerguru.vercel.app/",
     "tags": ["nextjs", "materialui", "Gemini Api","AWS BlackRock","ChatGpt"],
     "thumbnail": "/images/project/snake game.png"
   },
