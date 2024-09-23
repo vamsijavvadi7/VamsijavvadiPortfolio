@@ -19,5 +19,7 @@
 }
 
 .hero_avatar > img {
-  @apply w-[200px] md:w-[250px] rounded-lg;
+  @apply w-[200px] md:w-[250px] rounded-full;
+  
 }
+

@@ -1,0 +1,75 @@
+.experience {
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.experience_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience_card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s ease-in-out;
+}
+
+.experience_card:hover {
+    transform: translateY(-5px); /* Slight hover effect */
+}
+
+.experience_card_logo img {
+    width: 160px; /* Increased size for better visibility */
+    height: auto; /* Auto height to maintain aspect ratio */
+    object-fit: contain;
+    border: none; /* Removed border */
+    padding: 0; /* Removed padding */
+    background-color: transparent; /* Removed background color */
+}
+
+.experience_card_body {
+    flex-grow: 1;
+}
+
+.experience_card_title {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.experience_card_duration {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.experience_card_points {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.experience_card_points li {
+    margin-bottom: 5px;
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 768px) {
+    .experience_card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .experience_card_logo img {
+        margin-bottom: 15px;
+    }
+}

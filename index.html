@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= website.title %></title>
 
-    <!-- google font -->
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,26 +13,26 @@
       rel="stylesheet"
     />
 
-    <!-- devicons css -->
+    <!-- Devicons CSS -->
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
 
-    <!-- boxicons css -->
+    <!-- Boxicons CSS -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
 
-    <!-- custom css -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./style/style.css" />
-    <!-- custom js -->
+    <!-- Custom JS -->
     <script type="module" defer src="./scripts/app.js"></script>
   </head>
   <body>
-    <!-- navbar start -->
+    <!-- Navbar Start -->
     <nav class="navbar">
       <div class="container">
         <a href="/" class="navbar_brand"><%= sections.nav.title %></a>
@@ -48,47 +48,40 @@
           <% nav.forEach((item) => { %>
           <li>
             <a title="<%= item.title %>" href="<%= item.link %>">
-              <%= item.title %>
+              <b><%= item.title %></b>
             </a>
           </li>
           <% }); %>
         </ul>
       </div>
     </nav>
-    <!-- navbar end -->
+    <!-- Navbar End -->
 
-    <!-- hero section start -->
+    <!-- Hero Section Start -->
     <header id="home" class="hero scroll-mt-10">
       <div class="container">
-        <!-- text content -->
+        <!-- Text Content -->
         <div class="hero_content">
           <h2 class="hero_title"><%= sections.hero.title %></h2>
           <p class="hero_text"><%= sections.hero.text %></p>
           <div class="hero_links">
             <% socials.forEach((item) => { %>
-            <a
-              href="<%= item.link %>"
-              title="<%= item.title %>"
-              target="_blank"
-            >
+            <a href="<%= item.link %>" title="<%= item.title %>" target="_blank">
               <i class="<%= item.icon %>"></i>
             </a>
             <% }); %>
           </div>
         </div>
 
-        <!-- avatar -->
+        <!-- Avatar -->
         <div class="hero_avatar">
-          <img
-            src="<%= sections.hero.image %>"
-            alt="<%= sections.hero.title %>"
-          />
+          <img src="<%= sections.hero.image %>" alt="<%= sections.hero.title %>" />
         </div>
       </div>
     </header>
-    <!-- hero section end -->
+    <!-- Hero Section End -->
 
-    <!-- tech stack section start -->
+    <!-- Tech Stack Section Start -->
     <div class="tech-stack">
       <div class="container">
         <h2 class="tech-stack_title">Tech Stack</h2>
@@ -102,19 +95,18 @@
         </div>
       </div>
     </div>
-    <!-- tech stack section end -->
+    <!-- Tech Stack Section End -->
 
-    <!-- about section start -->
+    <!-- About Section Start -->
     <div id="about" class="about">
       <div class="container section">
-        <!-- about image -->
+        <!-- About Image -->
+       
         <div class="about_img">
-          <img
-            src="<%= sections.about.image %>"
-            alt="<%= sections.about.title %>"
-          />
+          <!-- <img src="<%= sections.about.image %>" alt="<%= sections.about.title %>" /> -->
+          <h2 class="section_title">About</h2>
         </div>
-        <!-- about text content -->
+        <!-- About Text Content -->
         <div class="about_content">
           <h3 class="section_subtitle mb-1"><%= sections.about.sutitle %></h3>
           <h2 class="section_title mb-5"><%= sections.about.title %></h2>
@@ -122,17 +114,65 @@
         </div>
       </div>
     </div>
-    <!-- about section end -->
+    <!-- About Section End -->
 
-    <!-- portfolio section start -->
+    <!-- Experience Section Start -->
+    <div id="experience" class="experience">
+      <div class="container section">
+        <h2 class="section_title">Experience</h2>
+        <div class="experience_cards">
+          <% sections.experience.forEach((experience) => { %>
+          <div class="experience_card">
+            <div class="experience_card_logo">
+              <img src="<%= experience.logo %>" alt="<%= experience.company %> logo" />
+            </div>
+            <div class="experience_card_body">
+              <h2 class="experience_card_title">
+                <%= experience.company %> - <%= experience.role %>
+              </h2>
+              <p class="experience_card_duration"><%= experience.duration %></p>
+              <ul class="experience_card_points">
+                <% experience.points.forEach((point) => { %>
+                <li><%= point %></li>
+                <% }); %>
+              </ul>
+            </div>
+          </div>
+          <% }); %>
+        </div>
+      </div>
+    </div>
+    <!-- Experience Section End -->
+
+    <!-- Education Section Start -->
+    <div id="education" class="education">
+      <div class="container section">
+        <h2 class="section_title">Education</h2>
+        <div class="education_cards">
+          <% sections.education.degrees.forEach((degree) => { %>
+          <div class="education_card">
+            <div class="education_card_body">
+              <h2 class="education_card_institution"><%= degree.institution %></h2>
+              <p class="education_card_degree"><%= degree.degree %></p>
+              <p class="education_card_details">
+                <%= degree.location %> | <%= degree.graduation %>
+              </p>
+              <p class="education_card_gpa"><%= degree.gpa %></p>
+            </div>
+          </div>
+          <% }); %>
+        </div>
+      </div>
+    </div>
+    <!-- Education Section End -->
+
+    <!-- Portfolio Section Start -->
     <div id="portfolio" class="portfolio">
       <div class="container section">
-        <h3 class="section_subtitle mb-1">
-          <%= sections.portfolio.subtitle %>
-        </h3>
+        <h3 class="section_subtitle mb-1"><%= sections.portfolio.subtitle %></h3>
         <h2 class="section_title mb-16"><%= sections.portfolio.title %></h2>
 
-        <!-- portfolio cards-->
+        <!-- Portfolio Cards -->
         <div class="portfolio_cards">
           <% projects.forEach((project) => { %>
           <div class="portfolio_card">
@@ -149,17 +189,11 @@
               <p class="portfolio_card_text"><%= project.description %></p>
 
               <div class="portfolio_card_links">
-                <a
-                  href="<%= project.source %>"
-                  target="_blank"
-                  class="portfolio_card_link"
-                  >Source Code <i class="bx bx-git-branch"></i>
+                <a href="<%= project.source %>" target="_blank" class="portfolio_card_link">
+                  Source Code <i class="bx bx-git-branch"></i>
                 </a>
-                <a
-                  href="<%= project.preview %>"
-                  target="_blank"
-                  class="portfolio_card_link primary"
-                  >Preview <i class="bx bx-link-external"></i>
+                <a href="<%= project.preview %>" target="_blank" class="portfolio_card_link primary">
+                  Preview <i class="bx bx-link-external"></i>
                 </a>
               </div>
             </div>
@@ -168,40 +202,67 @@
         </div>
       </div>
     </div>
-    <!-- portfolio section end -->
+    <!-- Portfolio Section End -->
 
-    <!-- contact section start -->
+    <!-- Contact Section Start -->
     <div id="contact" class="contact bg-white">
       <div class="container section">
         <h3 class="section_subtitle mb-1"><%= sections.contact.subtitle %></h3>
         <h2 class="section_title mb-5"><%= sections.contact.title %></h2>
-
-        <!-- contact cards -->
-        <div class="contact_cards mt-16">
-          <% contacts.forEach((contact) => { %>
-          <div class="contact_card">
-            <div class="contact_card_icon">
-              <i class="<%= contact.icon %> text-3xl md:text-4xl"></i>
-            </div>
-            <div class="contact_card_body">
-              <h2 class="contact_card_title"><%= contact.title %></h2>
-              <a
-                href="<%= contact.link %>"
-                target="_blank"
-                class="contact_card_text"
-                title="<%= contact.title  %>"
-              >
-                <%= contact.text %>
-              </a>
-            </div>
-          </div>
-          <% }); %>
-        </div>
+  <!-- Contact Cards -->
+  <div class="contact_cards mt-16">
+    <% contacts.forEach((contact) => { %>
+    <div class="contact_card">
+      <div class="contact_card_icon">
+        <i class="<%= contact.icon %> text-3xl md:text-4xl"></i>
+      </div>
+      <div class="contact_card_body">
+        <h2 class="contact_card_title"><%= contact.title %></h2>
+        <a href="<%= contact.link %>" target="_blank" class="contact_card_text" title="<%= contact.title %>">
+          <%= contact.text %>
+        </a>
       </div>
     </div>
-    <!-- contact section end -->
+    <% }); %>
+  </div>
+  <!-- Contact Cards End -->
+        <!-- Contact Form Card Start -->
+        <div class="contact_form_card">
+          <form id="contactForm" class="contact_form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your Name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="Your Email" />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required placeholder="Subject" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+        <!-- Contact Form Card End -->
 
-    <!-- footer section start -->
+        <!-- Snackbar for Feedback -->
+        <div id="snackbar" class="snackbar"></div>
+
+        <!-- Contact Info Start -->
+     
+
+      
+
+      </div>
+    </div>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
     <footer class="footer">
       <div class="container">
         <p class="footer_text">
@@ -217,6 +278,148 @@
         </div>
       </div>
     </footer>
-    <!-- footer section end -->
+    <!-- Footer Section End -->
   </body>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', async function(event) {
+      event.preventDefault();
+
+      const formData = {
+        name: event.target.name.value,
+        email: event.target.email.value,
+        subject: event.target.subject.value,
+        message: event.target.message.value,
+      };
+
+      try {
+        const response = await fetch('/api/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+
+        const result = await response.json();
+
+        if (response.ok) {
+          showSnackbar('Message sent successfully!', 'success');
+          event.target.reset(); // Reset form fields
+        } else {
+          showSnackbar('Failed to send message. Please try again.', 'error');
+        }
+      } catch (error) {
+        showSnackbar('Error sending message.', 'error');
+      }
+    });
+
+    function showSnackbar(message, type) {
+      const snackbar = document.getElementById('snackbar');
+      snackbar.innerHTML = message;
+      snackbar.className = type === 'success' ? 'show success' : 'show error';
+      setTimeout(() => snackbar.className = snackbar.className.replace('show', ''), 3000);
+    }
+  </script>
+
+  <style>
+    /* Existing Styles */
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 0.25rem;
+      font-size: 1rem;
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    /* Snackbar Styles */
+    .snackbar {
+      visibility: hidden;
+      min-width: 250px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 4px;
+      padding: 16px;
+      position: fixed;
+      z-index: 1;
+      left: 50%;
+      bottom: 30px;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .snackbar.show {
+      visibility: visible;
+      opacity: 1;
+      animation: fadeInOut 3s ease-in-out;
+    }
+
+    @keyframes fadeInOut {
+      0%,
+      100% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+    }
+
+    .snackbar.success {
+      background-color: #4caf50; /* Green */
+    }
+
+    .snackbar.error {
+      background-color: #f44336; /* Red */
+    }
+
+    /* Contact Form Card Styles */
+    .contact_form_card {
+      background-color: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: 0 auto 2rem auto; /* Center the card and add bottom margin */
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .contact_form_card {
+        padding: 1.5rem;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
 </html>

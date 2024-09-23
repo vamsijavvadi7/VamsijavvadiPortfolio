@@ -15,5 +15,11 @@
     "vite": "^4.2.0",
     "vite-plugin-html": "^3.2.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "introy": "file:",
+    "nodemailer": "^6.9.15"
+  }
 }

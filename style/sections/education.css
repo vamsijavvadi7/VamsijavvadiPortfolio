@@ -1,0 +1,63 @@
+.education {
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.education_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education_card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s ease-in-out;
+}
+
+.education_card:hover {
+    transform: translateY(-5px); /* Hover effect to lift the card */
+}
+
+.education_card_body {
+    flex-grow: 1;
+}
+
+.education_card_institution {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.education_card_degree {
+    font-style: italic;
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.education_card_details {
+    color: #777;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.education_card_gpa {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Optional media query for responsive design */
+@media (max-width: 768px) {
+    .education_card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

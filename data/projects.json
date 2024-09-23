@@ -1,34 +1,66 @@
 [
   {
-    "title": "Finsweet",
-    "description": "A fully functional digital agency template. This is for any agencies who wants to sell their services online. Using this template agencies can showcase their services, reviews, blogs etc.",
-    "source": "https://github.com/tonmoydeb404/finsweet",
-    "preview": "https://finsweet-td.netlify.app/",
-    "tags": ["html", "tailwindcss"],
-    "thumbnail": "/images/project/finsweet.webp"
+    "title": "MovieDB",
+    "description": "A dynamic, React-based movie search platform that allows users to browse through an extensive collection of over 1,000,000 movies. The application seamlessly integrates with a live movie database, offering up-to-date information on a variety of films. Users can explore detailed movie data, including cast, budget, plot summary, ratings, runtime, and an overall movie overview. The platform is designed to deliver a smooth, intuitive experience, making it easy to discover new movies, learn more about favorites, and stay informed on trending content.",
+    "source": "https://github.com/vamsijavvadi7/React-Movie-App",
+    "preview": "https://vamsi-javvadis-react-movie.netlify.app/",
+    "tags": ["reactjs","html","css","javascript"],
+    "thumbnail": "/images/project/reactmovie.png"
   },
   {
-    "title": "Track Taka",
-    "description": "Track Taka is an expense tracker application to help you in daily life money management. It allows you to track your regular expenses & income. so at the end of the month, you can quickly get a summary of your monthly expense.",
-    "source": "https://github.com/tonmoydeb404/track-taka",
-    "preview": "https://track-taka.netlify.app/",
-    "tags": ["react js", "tailwindcss", "indexeddb", "firebase"],
-    "thumbnail": "/images/project/track-taka.jpg"
+    "title": "Dental Labs Pro",
+    "description": "A comprehensive mobile application built using Flutter, Go, and MySQL, designed specifically for dental colleges to assess and mentor future dentists. This app replaces the traditional paper-based assessment process by allowing faculty to submit real-time feedback on students' treatment of patients. It facilitates one-on-one mentoring, enabling students to review their past assessments and track their progress directly within the app. Additionally, a self-evaluation feature fosters productive discussions between students and faculty, promoting continuous improvement in dental practices. The app enhances learning by streamlining feedback and fostering active engagement in the educational process.",
+    "source": "https://github.com/vamsijavvadi7/DentalLab-Pro",
+    "preview": "https://www.youtube.com/watch?v=VhkMmGfKj_E",
+    "tags": ["Flutter", "Go", "MySQL"],
+    "thumbnail": "/images/project/Dental Movie.png"
   },
   {
-    "title": "ZenBlog",
-    "description": "This is a simple SEO-friendly blog application. Which is developed with Next.js and HyGraph. This is a practice project where I tried to implement all the necessary features a blog should have.",
-    "source": "https://github.com/tonmoydeb404/zen-blog",
-    "preview": "https://zenblog.vercel.app/",
-    "tags": ["nextjs", "tailwindcss", "hygraph"],
-    "thumbnail": "/images/project/zenblog.jpg"
+    "title": "Teaching Assistant Recruitment Portal",
+    "description": "A web-based application developed using Java, JavaScript, MySQL, HTML, CSS and JSP, designed to streamline the recruitment process for teaching assistant positions in colleges. This portal facilitates seamless communication between students, the TA committee, and administrators. Students can apply for positions through the portal, while the TA committee reviews applications, selects candidates, and communicates with applicants. Administrators use the platform to send interview invites, offer letters, and other important messages, improving the overall efficiency of the recruitment process and enhancing collaboration between all stakeholders.",
+    "source": "https://github.com/vamsijavvadi7/TA",
+    "preview": "https://youtu.be/zJ0dDDLPDPc?si=JPih7ipc0Ht_bbQS",
+    "tags": ["java", "JSP", "MySQL","html","css","javascript"],
+    "thumbnail": "/images/project/ta.png"
   },
   {
-    "title": "Movie Mania",
-    "description": "this is a movie and tv show search web app. you can watch trailers and get an overview of specific movies or tv shows. also, you can get similar movies or tv show suggestions.",
-    "source": "https://github.com/tonmoydeb404/movie-mania",
-    "preview": "https://td-movie-mania.netlify.app/",
-    "tags": ["reactjs", "materialui", "api"],
-    "thumbnail": "/images/project/movie-mania.jpg"
+    "title": "Voice Controlled Snake Game",
+    "description": "An interactive, voice-controlled Snake game developed using JavaScript, HTML, CSS, and integrated with Teachable Machine. This innovative project allows players to control the classic Snake game through voice commands, replacing traditional keyboard input. The game leverages machine learning models to recognize voice inputs and provides an engaging, hands-free gaming experience. The seamless integration of voice control showcases a unique approach to game interaction and enhances accessibility and user engagement.",
+    "source": "https://github.com/vamsijavvadi7/ml-snake-game-main",
+    "preview": "https://ml-snake-game-main.vercel.app/",
+    "tags": ["reactjs", "materialui", "Teachable Machine"],
+    "thumbnail": "/images/project/snake game.png"
+  },
+  {
+    "title": "Pantry Pal",
+    "description": "Pantry Pal is a web application designed to help you efficiently manage your pantry with ease. Using advanced AI, users can add items by text or image, track inventory, modify quantities, and remove items with a single click. Pantry Pal also provides magical recipe suggestions based on the ingredients in your pantry, turning everyday items into creative meal ideas.",
+    "source": "https://github.com/vamsijavvadi7/inventory-management-app",
+    "preview": "https://pantry-pal-app.vercel.app/",
+    "tags": ["nextjs", "materialui", "Gemini Api","AWS BlackRock","ChatGpt"],
+    "thumbnail": "/images/project/snake game.png"
+  },
+  {
+    "title": "Pantry Pal",
+    "description": "Pantry Pal is a web application designed to help you efficiently manage your pantry with ease. Using advanced AI, users can add items by text or image, track inventory, modify quantities, and remove items with a single click. Pantry Pal also provides magical recipe suggestions based on the ingredients in your pantry, turning everyday items into creative meal ideas.",
+    "source": "https://github.com/vamsijavvadi7/inventory-management-app",
+    "preview": "https://pantry-pal-app.vercel.app/",
+    "tags": ["nextjs", "materialui", "Gemini Api","AWS BlackRock","ChatGpt"],
+    "thumbnail": "/images/project/snake game.png"
+  },
+  {
+    "title": "AI CareerGuru",
+    "description": "**AI Career Guru** is an innovative web application designed to navigate the modern job market with AI-driven insights. It offers personalized learning paths, resume optimization, interview preparation, and expert career guidance. Built using cutting-edge technologies like Next.js, Firebase, and powerful AI models such as ChatGPT,Gemini and Amazon Bedrock, AI Career Guru empowers users to make informed decisions, enhance their skills, and achieve career success. Whether you're just starting out or aiming to advance, AI Career Guru is your ultimate career companion.",
+    "source": "https://github.com/vamsijavvadi7/inventory-management-app",
+    "preview": "https://pantry-pal-app.vercel.app/",
+    "tags": ["nextjs", "materialui", "Gemini Api","AWS BlackRock","ChatGpt"],
+    "thumbnail": "/images/project/snake game.png"
+  },
+  {
+    "title": "Pantry Pal",
+    "description": "Pantry Pal is a web application designed to help you efficiently manage your pantry with ease. Using advanced AI, users can add items by text or image, track inventory, modify quantities, and remove items with a single click. Pantry Pal also provides magical recipe suggestions based on the ingredients in your pantry, turning everyday items into creative meal ideas.",
+    "source": "https://github.com/vamsijavvadi7/inventory-management-app",
+    "preview": "https://pantry-pal-app.vercel.app/",
+    "tags": ["nextjs", "materialui", "Gemini Api","AWS BlackRock","ChatGpt"],
+    "thumbnail": "/images/project/snake game.png"
   }
 ]

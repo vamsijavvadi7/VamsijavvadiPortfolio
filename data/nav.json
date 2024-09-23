@@ -1,6 +1,8 @@
 [
   { "title": "Home", "link": "/#home" },
   { "title": "About", "link": "/#about" },
+  { "title": "Experience", "link": "/#experience" },
+  { "title": "Education", "link": "/#education" },
   { "title": "Projects", "link": "/#portfolio" },
   { "title": "Contact", "link": "/#contact" }
 ]
