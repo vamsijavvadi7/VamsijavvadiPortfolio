@@ -227,7 +227,7 @@
   </div>
   <!-- Contact Cards End -->
         <!-- Contact Form Card Start -->
-        <div class="contact_form_card">
+        <div class="contact_form_card" style="margin-top: 10px">
           <form id="contactForm" class="contact_form">
             <div class="form-group">
               <label for="name">Name</label>
@@ -252,7 +252,6 @@
 
         <!-- Snackbar for Feedback -->
         <div id="snackbar" class="snackbar"></div>
-
         <!-- Contact Info Start -->
      
 
@@ -315,11 +314,18 @@
     });
 
     function showSnackbar(message, type) {
-      const snackbar = document.getElementById('snackbar');
-      snackbar.innerHTML = message;
-      snackbar.className = type === 'success' ? 'show success' : 'show error';
-      setTimeout(() => snackbar.className = snackbar.className.replace('show', ''), 3000);
-    }
+  const snackbar = document.getElementById('snackbar');
+  snackbar.innerHTML = message;
+
+  // Add 'show' and success/error classes to make the snackbar visible
+  snackbar.className = `snackbar show ${type === 'success' ? 'success' : 'error'}`;
+
+  // Keep the snackbar visible for 3 seconds before hiding it
+  setTimeout(() => {
+    snackbar.className = snackbar.className.replace('show', '');
+  }, 3000);  // Visible for 3 seconds
+}
+
   </script>
 
   <style>

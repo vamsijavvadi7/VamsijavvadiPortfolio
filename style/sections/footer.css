@@ -3,7 +3,7 @@
 }
 
 .footer > .container {
-  @apply py-16 gap-10 flex flex-col md:flex-row text-center md:text-left items-center justify-between;
+  @apply py-3 gap-10 flex flex-col md:flex-row text-center md:text-left items-center justify-between;
 }
 
 .footer_text {

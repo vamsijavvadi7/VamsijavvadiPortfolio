@@ -8,6 +8,7 @@
 
 .portfolio_card_media {
   @apply w-full md:w-1/2 overflow-hidden rounded-lg;
+  
 }
 
 .portfolio_card_media > img {

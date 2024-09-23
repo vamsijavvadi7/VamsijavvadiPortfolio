@@ -1,11 +1,26 @@
 [
+  { "title": "Java", "icon": "devicon-java-plain colored" },
+  { "title": "Spring Boot", "icon": "devicon-spring-plain colored" },
+  { "title": "Python", "icon": "devicon-python-plain colored" },
+  { "title": "Django", "icon": "devicon-django-plain colored" },
+  { "title": "Go", "icon": "devicon-go-plain colored" },
+  { "title": "GraphQL", "icon": "devicon-graphql-plain colored" },
+  { "title": "SQL", "icon": "devicon-mysql-plain colored" }, 
+  { "title": "MySQL", "icon": "devicon-mysql-plain colored" },
+  { "title": "MongoDB", "icon": "devicon-mongodb-plain colored" },
+  { "title": "Postgres", "icon": "devicon-postgresql-plain colored" },  
+  { "title": "Git", "icon": "devicon-git-plain colored" },
+  { "title": "Firebase", "icon": "devicon-firebase-plain colored" },
   { "title": "HTML", "icon": "devicon-html5-plain colored" },
   { "title": "CSS", "icon": "devicon-css3-plain colored" },
   { "title": "JavaScript", "icon": "devicon-javascript-plain colored" },
+  { "title": "MaterialUI", "icon": "devicon-materialui-plain colored" },
   { "title": "TypeScript", "icon": "devicon-typescript-plain colored" },
   { "title": "React JS", "icon": "devicon-react-original colored" },
   { "title": "Next JS", "icon": "devicon-nextjs-plain colored" },
-  { "title": "TailwindCSS", "icon": "devicon-tailwindcss-original colored" },
+  { "title": "TailwindCSS", "icon": "devicon-tailwindcss-plain colored" },
   { "title": "Node JS", "icon": "devicon-nodejs-plain colored" },
-  { "title": "Express JS", "icon": "devicon-express-original colored" }
+  { "title": "Express JS", "icon": "devicon-express-original colored" },
+  { "title": "Unix/Linux", "icon": "devicon-linux-plain colored" }, 
+  { "title": "Windows", "icon": "devicon-windows8-original colored" }  
 ]

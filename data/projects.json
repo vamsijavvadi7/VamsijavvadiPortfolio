@@ -24,7 +24,7 @@
     "thumbnail": "/images/project/ta.png"
   },
   {
-    "title": "Voice Controlled Snake Game",
+    "title": "AI Voice Controlled Snake Game",
     "description": "An interactive, voice-controlled Snake game developed using JavaScript, HTML, CSS, and integrated with Teachable Machine. This innovative project allows players to control the classic Snake game through voice commands, replacing traditional keyboard input. The game leverages machine learning models to recognize voice inputs and provides an engaging, hands-free gaming experience. The seamless integration of voice control showcases a unique approach to game interaction and enhances accessibility and user engagement.",
     "source": "https://github.com/vamsijavvadi7/ml-snake-game-main",
     "preview": "https://ml-snake-game-main.vercel.app/",
@@ -32,35 +32,35 @@
     "thumbnail": "/images/project/snake game.png"
   },
   {
-    "title": "Pantry Pal",
+    "title": "Pantry Pal AI",
     "description": "Pantry Pal is a web application designed to help you efficiently manage your pantry with ease. Using advanced AI, users can add items by text or image, track inventory, modify quantities, and remove items with a single click. Pantry Pal also provides magical recipe suggestions based on the ingredients in your pantry, turning everyday items into creative meal ideas.",
     "source": "https://github.com/vamsijavvadi7/inventory-management-app",
     "preview": "https://pantry-pal-app.vercel.app/",
     "tags": ["nextjs", "materialui", "Gemini Api","AWS BlackRock","ChatGpt"],
-    "thumbnail": "/images/project/snake game.png"
+    "thumbnail": "/images/project/pantry.png"
   },
   {
-    "title": "Pantry Pal",
-    "description": "Pantry Pal is a web application designed to help you efficiently manage your pantry with ease. Using advanced AI, users can add items by text or image, track inventory, modify quantities, and remove items with a single click. Pantry Pal also provides magical recipe suggestions based on the ingredients in your pantry, turning everyday items into creative meal ideas.",
-    "source": "https://github.com/vamsijavvadi7/inventory-management-app",
-    "preview": "https://pantry-pal-app.vercel.app/",
-    "tags": ["nextjs", "materialui", "Gemini Api","AWS BlackRock","ChatGpt"],
-    "thumbnail": "/images/project/snake game.png"
+    "title": "Flashcard Pro AI",
+    "description": "Flashcard Pro AI is an innovative web application designed to revolutionize the way people learn, no matter their age or ability. Built with Next.js, Firebase, and cutting-edge Gemini models, it offers a sleek, intuitive platform for creating, organizing, and mastering custom flashcards. Whether you're a kid, student, or lifelong learner, Flashcard Pro AI provides engaging, personalized learning experiences with interactive features, seamless Clerk authentication, and a clean, responsive UI powered by Material UI. It’s the ultimate tool to unlock your learning potential with ease!",
+    "source": "https://github.com/vamsijavvadi7/flashcard-saas",
+    "preview": "https://flashcardpro.vercel.app",
+    "tags": ["nextjs", "materialui","firebase","clerk", "Gemini"],
+    "thumbnail": "/images/project/flashcard.png"
   },
   {
     "title": "AI CareerGuru",
     "description": "AI Career Guru is an innovative web application designed to navigate the modern job market with AI-driven insights. It offers personalized learning paths, resume optimization, interview preparation, and expert career guidance. Built using cutting-edge technologies like Next.js, Firebase, and powerful AI models such as ChatGPT,Gemini and Amazon Bedrock, AI Career Guru empowers users to make informed decisions, enhance their skills, and achieve career success. Whether you're just starting out or aiming to advance, AI Career Guru is your ultimate career companion.",
     "source": "https://github.com/vamsijavvadi7/customer-support-ai",
     "preview": "https://ai-careerguru.vercel.app/",
-    "tags": ["nextjs", "materialui", "Gemini Api","AWS BlackRock","ChatGpt"],
-    "thumbnail": "/images/project/snake game.png"
+    "tags": ["nextjs", "materialui", "Gemini","AWS BlackRock","ChatGpt","Firebase"],
+    "thumbnail": "/images/project/career.png"
   },
   {
-    "title": "Pantry Pal",
-    "description": "Pantry Pal is a web application designed to help you efficiently manage your pantry with ease. Using advanced AI, users can add items by text or image, track inventory, modify quantities, and remove items with a single click. Pantry Pal also provides magical recipe suggestions based on the ingredients in your pantry, turning everyday items into creative meal ideas.",
-    "source": "https://github.com/vamsijavvadi7/inventory-management-app",
-    "preview": "https://pantry-pal-app.vercel.app/",
-    "tags": ["nextjs", "materialui", "Gemini Api","AWS BlackRock","ChatGpt"],
-    "thumbnail": "/images/project/snake game.png"
+    "title": "Rate My Professor",
+    "description": "Rate My Professor AI is a cutting-edge web application leveraging RAG (Retrieval-Augmented Generation) architecture to help students find the best professors tailored to their specific needs. Whether you're seeking a professor who focuses on practical applications, industry expertise, or clear explanations, this platform provides personalized recommendations for your courses. Powered by Pinecone vector database and Gemini models, it matches student queries with embeddings of professor data to deliver the top 3 professor suggestions. The integration of Gemini generative response models ensures students get insightful, relevant suggestions that enhance their academic experience.",
+    "source": "https://github.com/vamsijavvadi7/ratemyporofessor",
+    "preview": "https://ratemyporofessor-ro7b.vercel.app",
+    "tags": ["nextjs", "materialui", "Gemini","Pinecone","RAG"],
+    "thumbnail": "/images/project/professor.png"
   }
 ]

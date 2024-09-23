@@ -10,5 +10,11 @@
     "title": "WhatsApp",
     "link": "tel:+15618751855",
     "text": "+15618751855"
+  },
+  {
+    "title": "Linkedin",
+    "icon": "bx bxl-linkedin-square",
+    "link": "https://linkedin.com/in/vamsi-javvadi",
+    "text": "vamsi-javvadi"
   }
 ]
