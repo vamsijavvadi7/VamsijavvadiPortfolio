@@ -48,7 +48,7 @@
           <% nav.forEach((item) => { %>
           <li>
             <a title="<%= item.title %>" href="<%= item.link %>">
-              <b><%= item.title %></b>
+              <%= item.title %>
             </a>
           </li>
           <% }); %>
@@ -62,7 +62,11 @@
       <div class="container">
         <!-- Text Content -->
         <div class="hero_content">
-          <h2 class="hero_title"><%= sections.hero.title %></h2>
+          <h2 class="hero_title">
+            <%= sections.hero.title %>
+            <img src="/images/project/waving.png" alt="waving_hand">
+          </h2>
+          
           <p class="hero_text"><%= sections.hero.text %></p>
           <div class="hero_links">
             <% socials.forEach((item) => { %>
@@ -103,12 +107,12 @@
         <!-- About Image -->
        
         <div class="about_img">
-          <!-- <img src="<%= sections.about.image %>" alt="<%= sections.about.title %>" /> -->
-          <h2 class="section_title">About</h2>
+          <img src="/images/avatar/about.webp" alt="<%= sections.about.title %>" />
+          <!-- <h2 class="section_title">About</h2> -->
         </div>
         <!-- About Text Content -->
         <div class="about_content">
-          <h3 class="section_subtitle mb-1"><%= sections.about.sutitle %></h3>
+          <h3 class="section_subtitle mb-1">About me</h3>
           <h2 class="section_title mb-5"><%= sections.about.title %></h2>
           <p class="about_text"><%= sections.about.text %></p>
         </div>
@@ -281,6 +285,14 @@
   </body>
 
   <script>
+    const mobileMenu = document.getElementById("mobileMenu");
+const menuToggler = document.getElementById("menuToggler");
+
+menuToggler.addEventListener("click", (e) => {
+  console.log("Menu toggled");
+  mobileMenu.classList.toggle("show");
+});
+
     document.getElementById('contactForm').addEventListener('submit', async function(event) {
       event.preventDefault();
 

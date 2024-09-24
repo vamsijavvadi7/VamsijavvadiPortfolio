@@ -1,9 +1,19 @@
+.about{
+  background-color: #fff;
+  padding: 2rem 0;
+}
+
 .about > .container {
-  @apply grid grid-cols-12 gap-y-10 md:gap-y-0 md:gap-x-10;
+  @apply grid grid-cols-12 gap-y-10 md:gap-y-10 md:gap-x-10;
 }
 
 .about_img {
   @apply col-span-12 md:col-span-5;
+  border-radius: 1.7rem;
+    height: 15rem;
+    width: 21rem;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 .about_img > img {

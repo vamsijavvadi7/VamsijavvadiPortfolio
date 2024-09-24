@@ -2,13 +2,20 @@
   @apply py-16 flex flex-col-reverse gap-10 text-center md:text-left md:flex-row items-center md:justify-between;
 }
 
-.hero_title {
-  @apply text-3xl md:text-5xl font-black mb-5 leading-tight;
-}
 
 .hero_text {
   @apply mb-5;
+}.hero_title {
+  @apply text-3xl md:text-5xl font-black mb-5 leading-tight;
 }
+
+.hero_title img {
+  height: 1em; /* Make the image size relative to the text size */
+  width: 1em;  /* This ensures the image behaves like an inline icon or emoji */
+  display: inline; /* Ensure the image is inline with the text */
+  vertical-align: middle; /* Vertically aligns the image with the text */
+}
+
 
 .hero_links {
   @apply flex items-center justify-center md:justify-start text-4xl gap-4;
@@ -18,8 +25,29 @@
   @apply duration-300 hover:text-blue-600;
 }
 
-.hero_avatar > img {
-  @apply w-[200px] md:w-[250px] rounded-full;
-  
+/* Custom animation for hero avatar */
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 40% 70%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
 }
+
+.hero_avatar > img {
+  @apply w-[28rem] md:w-[28rem] rounded-full;
+  
+  /* Add custom animation */
+  animation: morph 8s ease-in-out infinite;
+  border: 3px solid #2d2e32;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+}
+
 
