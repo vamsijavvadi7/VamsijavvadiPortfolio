@@ -22,8 +22,8 @@
 }
 
 .navbar_links.show {
-  /* When show is active, remove translate-y to display the menu */
-  @apply translate-y-0; /* This moves the menu back into view */
+ 
+  @apply top-full translate-y-0 -z-[1]; 
 }
 
 .navbar_toggler {

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= website.title %></title>
+    <link rel="icon" href="/images/avatar/fav.png" type="image/x-icon" />
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -285,11 +286,11 @@
   </body>
 
   <script>
-    const mobileMenu = document.getElementById("mobileMenu");
+   const mobileMenu = document.getElementById("mobileMenu");
 const menuToggler = document.getElementById("menuToggler");
 
 menuToggler.addEventListener("click", (e) => {
- 
+  console.log("toggle")
   mobileMenu.classList.toggle("show");
 });
 
