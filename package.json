@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "introy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,7 +16,6 @@
     "vite-plugin-html": "^3.2.2"
   },
   "dependencies": {
-    "": "file:",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.21.0",
