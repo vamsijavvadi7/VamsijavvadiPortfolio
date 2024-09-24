@@ -35,7 +35,6 @@
   <body>
     <!-- Navbar Start -->
     <nav class="navbar">
-      <div class="container">
         <a href="/" class="navbar_brand"><%= sections.nav.title %></a>
         <button
           title="Open Menu"
@@ -54,7 +53,6 @@
           </li>
           <% }); %>
         </ul>
-      </div>
     </nav>
     <!-- Navbar End -->
 
@@ -290,7 +288,7 @@
 const menuToggler = document.getElementById("menuToggler");
 
 menuToggler.addEventListener("click", (e) => {
-  console.log("toggle")
+  
   mobileMenu.classList.toggle("show");
 });
 

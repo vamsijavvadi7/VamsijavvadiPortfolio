@@ -1,6 +1,6 @@
 
-const menuToggler = document.getElementById("menuToggler");
+// const menuToggler = document.getElementById("menuToggler");
 
-menuToggler.addEventListener("click", (e) => {
-  document.body.classList.toggle("show");
-});
+// menuToggler.addEventListener("click", (e) => {
+//   document.body.classList.toggle("show");
+// });

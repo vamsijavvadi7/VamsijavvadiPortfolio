@@ -9,3 +9,7 @@
 .section_subtitle {
   @apply text-lg uppercase font-extrabold text-blue-600;
 }
+* {
+  scrollbar-color: #8e8e8e #fff;
+  scrollbar-width: thin;
+}
