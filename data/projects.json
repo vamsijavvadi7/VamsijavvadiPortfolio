@@ -1,7 +1,8 @@
 [
   {
     "title": "MovieDB",
-    "description": "A dynamic, React-based movie search platform that allows users to browse through an extensive collection of over 1,000,000 movies. The application seamlessly integrates with a live movie database, offering up-to-date information on a variety of films. Users can explore detailed movie data, including cast, budget, plot summary, ratings, runtime, and an overall movie overview. The platform is designed to deliver a smooth, intuitive experience, making it easy to discover new movies, learn more about favorites, and stay informed on trending content.",
+    "description": "A React-based movie search platform providing real-time access to over 1,000,000 movies. Users can explore detailed film data, including cast, ratings, and trending content, all in a seamless, intuitive experience.",
+    "longdescription":"A dynamic, React-based movie search platform that allows users to browse through an extensive collection of over 1,000,000 movies. The application seamlessly integrates with a live movie database, offering up-to-date information on a variety of films. Users can explore detailed movie data, including cast, budget, plot summary, ratings, runtime, and an overall movie overview. The platform is designed to deliver a smooth, intuitive experience, making it easy to discover new movies, learn more about favorites, and stay informed on trending content.",
     "source": "https://github.com/vamsijavvadi7/React-Movie-App",
     "preview": "https://vamsi-javvadis-react-movie.netlify.app/",
     "tags": ["reactjs","html","css","javascript"],
@@ -9,7 +10,8 @@
   },
   {
     "title": "Dental Labs Pro",
-    "description": "A comprehensive mobile application built using Flutter, Go, and MySQL, designed specifically for dental colleges to assess and mentor future dentists. This app replaces the traditional paper-based assessment process by allowing faculty to submit real-time feedback on students' treatment of patients. It facilitates one-on-one mentoring, enabling students to review their past assessments and track their progress directly within the app. Additionally, a self-evaluation feature fosters productive discussions between students and faculty, promoting continuous improvement in dental practices. The app enhances learning by streamlining feedback and fostering active engagement in the educational process.",
+    "description": "A Flutter-based mobile app for dental colleges, streamlining real-time assessments and mentoring. Replacing paper-based evaluations, it enables faculty to give feedback and students to track progress, assisting over 1,000 students daily and fostering continuous improvement in dental education.",
+    "longdescription": "A comprehensive mobile application built using Flutter, Go, and MySQL, designed specifically for dental colleges to assess and mentor future dentists. This app replaces the traditional paper-based assessment process by allowing faculty to submit real-time feedback on students' treatment of patients. It facilitates one-on-one mentoring, enabling students to review their past assessments and track their progress directly within the app. Additionally, a self-evaluation feature fosters productive discussions between students and faculty, promoting continuous improvement in dental practices. The app enhances learning by streamlining feedback and fostering active engagement in the educational process.",
     "source": "https://github.com/vamsijavvadi7/DentalLab-Pro",
     "preview": "https://www.youtube.com/watch?v=VhkMmGfKj_E",
     "tags": ["Flutter", "Go", "MySQL"],
@@ -17,7 +19,8 @@
   },
   {
     "title": "Teaching Assistant Recruitment Portal",
-    "description": "A web-based application developed using Java, JavaScript, MySQL, HTML, CSS and JSP, designed to streamline the recruitment process for teaching assistant positions in colleges. This portal facilitates seamless communication between students, the TA committee, and administrators. Students can apply for positions through the portal, while the TA committee reviews applications, selects candidates, and communicates with applicants. Administrators use the platform to send interview invites, offer letters, and other important messages, improving the overall efficiency of the recruitment process and enhancing collaboration between all stakeholders.",
+    "description": "A Java-based web application streamlining the recruitment process for teaching assistants. It enables seamless communication between students, committees, and administrators, improving efficiency and collaboration in candidate selection and hiring.",
+    "longdescription": "A web-based application developed using Java, JavaScript, MySQL, HTML, CSS and JSP, designed to streamline the recruitment process for teaching assistant positions in colleges. This portal facilitates seamless communication between students, the TA committee, and administrators. Students can apply for positions through the portal, while the TA committee reviews applications, selects candidates, and communicates with applicants. Administrators use the platform to send interview invites, offer letters, and other important messages, improving the overall efficiency of the recruitment process and enhancing collaboration between all stakeholders.",
     "source": "https://github.com/vamsijavvadi7/TA",
     "preview": "https://youtu.be/zJ0dDDLPDPc?si=JPih7ipc0Ht_bbQS",
     "tags": ["java", "JSP", "MySQL","html","css","javascript"],
@@ -25,7 +28,8 @@
   },
   {
     "title": "AI Voice Controlled Snake Game",
-    "description": "An interactive, voice-controlled Snake game developed using JavaScript, HTML, CSS, and integrated with Teachable Machine. This innovative project allows players to control the classic Snake game through voice commands, replacing traditional keyboard input. The game leverages machine learning models to recognize voice inputs and provides an engaging, hands-free gaming experience. The seamless integration of voice control showcases a unique approach to game interaction and enhances accessibility and user engagement.",
+    "description": "A voice-controlled Snake game built with JavaScript and Teachable Machine, enabling hands-free gameplay using machine learning for voice recognition. This innovative project enhances accessibility and redefines game interaction.",
+    "longdescription": "An interactive, voice-controlled Snake game developed using JavaScript, HTML, CSS, and integrated with Teachable Machine. This innovative project allows players to control the classic Snake game through voice commands, replacing traditional keyboard input. The game leverages machine learning models to recognize voice inputs and provides an engaging, hands-free gaming experience. The seamless integration of voice control showcases a unique approach to game interaction and enhances accessibility and user engagement.",
     "source": "https://github.com/vamsijavvadi7/ml-snake-game-main",
     "preview": "https://ml-snake-game-main.vercel.app/",
     "tags": ["reactjs", "materialui", "Teachable Machine"],
@@ -33,7 +37,8 @@
   },
   {
     "title": "Pantry Pal AI",
-    "description": "Pantry Pal is a web application designed to help you efficiently manage your pantry with ease. Using advanced AI, users can add items by text or image, track inventory, modify quantities, and remove items with a single click. Pantry Pal also provides magical recipe suggestions based on the ingredients in your pantry, turning everyday items into creative meal ideas.",
+    "description": "Pantry Pal is an AI-powered web app that simplifies pantry management. Users can add items via text or image, track inventory, and get personalized recipe suggestions, turning everyday ingredients into creative meals.",
+    "longdescription": "Pantry Pal is a web application designed to help you efficiently manage your pantry with ease. Using advanced AI, users can add items by text or image, track inventory, modify quantities, and remove items with a single click. Pantry Pal also provides magical recipe suggestions based on the ingredients in your pantry, turning everyday items into creative meal ideas.",
     "source": "https://github.com/vamsijavvadi7/inventory-management-app",
     "preview": "https://pantry-pal-app.vercel.app/",
     "tags": ["nextjs", "materialui", "Gemini Api","AWS BlackRock","ChatGpt"],
@@ -41,7 +46,8 @@
   },
   {
     "title": "Flashcard Pro AI",
-    "description": "Flashcard Pro AI is an innovative web application designed to revolutionize the way people learn, no matter their age or ability. Built with Next.js, Firebase, and cutting-edge Gemini models, it offers a sleek, intuitive platform for creating, organizing, and mastering custom flashcards. Whether you're a kid, student, or lifelong learner, Flashcard Pro AI provides engaging, personalized learning experiences with interactive features, seamless Clerk authentication, and a clean, responsive UI powered by Material UI. It’s the ultimate tool to unlock your learning potential with ease!",
+    "description": "Flashcard Pro AI is a Next.js web app powered by Gemini models and Firebase, offering personalized, interactive flashcard learning for all ages. With seamless authentication and a sleek UI, it revolutionizes the learning experience.",
+    "longdescription": "Flashcard Pro AI is an innovative web application designed to revolutionize the way people learn, no matter their age or ability. Built with Next.js, Firebase, and cutting-edge Gemini models, it offers a sleek, intuitive platform for creating, organizing, and mastering custom flashcards. Whether you're a kid, student, or lifelong learner, Flashcard Pro AI provides engaging, personalized learning experiences with interactive features, seamless Clerk authentication, and a clean, responsive UI powered by Material UI. It’s the ultimate tool to unlock your learning potential with ease!",
     "source": "https://github.com/vamsijavvadi7/flashcard-saas",
     "preview": "https://flashcardpro.vercel.app",
     "tags": ["nextjs", "materialui","firebase","clerk", "Gemini"],
@@ -49,7 +55,8 @@
   },
   {
     "title": "AI CareerGuru",
-    "description": "AI Career Guru is an innovative web application designed to navigate the modern job market with AI-driven insights. It offers personalized learning paths, resume optimization, interview preparation, and expert career guidance. Built using cutting-edge technologies like Next.js, Firebase, and powerful AI models such as ChatGPT,Gemini and Amazon Bedrock, AI Career Guru empowers users to make informed decisions, enhance their skills, and achieve career success. Whether you're just starting out or aiming to advance, AI Career Guru is your ultimate career companion.",
+    "description": "AI Career Guru is an AI-powered web app offering personalized career guidance, resume optimization, and interview prep. Built with Next.js, Firebase, and advanced models like ChatGPT, Gemini, and Amazon Bedrock, it helps users navigate the job market and achieve career success.",
+    "longdescription": "AI Career Guru is an innovative web application designed to navigate the modern job market with AI-driven insights. It offers personalized learning paths, resume optimization, interview preparation, and expert career guidance. Built using cutting-edge technologies like Next.js, Firebase, and powerful AI models such as ChatGPT,Gemini and Amazon Bedrock, AI Career Guru empowers users to make informed decisions, enhance their skills, and achieve career success. Whether you're just starting out or aiming to advance, AI Career Guru is your ultimate career companion.",
     "source": "https://github.com/vamsijavvadi7/customer-support-ai",
     "preview": "https://ai-careerguru.vercel.app/",
     "tags": ["nextjs", "materialui", "Gemini","AWS BlackRock","ChatGpt","Firebase"],
@@ -57,7 +64,8 @@
   },
   {
     "title": "Rate My Professor",
-    "description": "Rate My Professor AI is a cutting-edge web application leveraging RAG (Retrieval-Augmented Generation) architecture to help students find the best professors tailored to their specific needs. Whether you're seeking a professor who focuses on practical applications, industry expertise, or clear explanations, this platform provides personalized recommendations for your courses. Powered by Pinecone vector database and Gemini models, it matches student queries with embeddings of professor data to deliver the top 3 professor suggestions. The integration of Gemini generative response models ensures students get insightful, relevant suggestions that enhance their academic experience.",
+    "description": "Rate My Professor AI is a web app using RAG (Retrieval-Augmented Generation) to offer personalized professor recommendations. Powered by Pinecone vector database and Gemini embedding/generative models, it matches student queries with professor data, delivering tailored top 3 suggestions.",
+    "longdescription": "Rate My Professor AI is a cutting-edge web application leveraging RAG (Retrieval-Augmented Generation) architecture to help students find the best professors tailored to their specific needs. Whether you're seeking a professor who focuses on practical applications, industry expertise, or clear explanations, this platform provides personalized recommendations for your courses. Powered by Pinecone vector database and Gemini models, it matches student queries with embeddings of professor data to deliver the top 3 professor suggestions. The integration of Gemini generative response models ensures students get insightful, relevant suggestions that enhance their academic experience.",
     "source": "https://github.com/vamsijavvadi7/ratemyporofessor",
     "preview": "https://ratemyporofessor-ro7b.vercel.app",
     "tags": ["nextjs", "materialui", "Gemini","Pinecone","RAG"],
