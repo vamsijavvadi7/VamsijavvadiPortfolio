@@ -48,7 +48,7 @@
           <% nav.forEach((item) => { %>
           <li>
             <a title="<%= item.title %>" href="<%= item.link %>">
-              <%= item.title %>
+              <b><%= item.title %></b>
             </a>
           </li>
           <% }); %>
@@ -122,7 +122,7 @@
     <!-- Experience Section Start -->
     <div id="experience" class="experience">
       <div class="container section">
-        <h2 class="section_title">Experience</h2>
+        <h3 class="section_subtitle mb-1">Experience</h3>
         <div class="experience_cards">
           <% sections.experience.forEach((experience) => { %>
           <div class="experience_card">
@@ -148,9 +148,10 @@
     <!-- Experience Section End -->
 
     <!-- Education Section Start -->
+     
     <div id="education" class="education">
       <div class="container section">
-        <h2 class="section_title">Education</h2>
+        <h3 class="section_subtitle mb-1"><%= sections.education.title %></h3>
         <div class="education_cards">
           <% sections.education.degrees.forEach((degree) => { %>
           <div class="education_card">
@@ -183,20 +184,20 @@
               <img src="<%= project.thumbnail %>" alt="<%= project.title %>" />
             </div>
             <div class="portfolio_card_body">
-              <div class="portfolio_card_tags">
-                <% project.tags.forEach((tag) => { %>
-                <span>#<%= tag %></span>
-                <% }); %>
-              </div>
+              
               <h2 class="portfolio_card_title"><%= project.title %></h2>
               <p class="portfolio_card_text"><%= project.description %></p>
-
+              <div class="portfolio_card_tags">
+                <% project.tags.forEach((tag) => { %>
+                <span><b><%= tag %></b></span>
+                <% }); %>
+              </div>
               <div class="portfolio_card_links">
                 <a href="<%= project.source %>" target="_blank" class="portfolio_card_link">
                   Source Code <i class="bx bx-git-branch"></i>
                 </a>
-                <a href="<%= project.preview %>" target="_blank" class="portfolio_card_link primary">
-                  Preview <i class="bx bx-link-external"></i>
+                <a href="<%= project.preview %>" target="_blank" class="portfolio_card_link">
+                  Live Demo <i class="bx bx-link-external"></i>
                 </a>
               </div>
             </div>

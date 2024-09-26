@@ -1,5 +1,5 @@
 .section {
-  @apply py-[70px] md:py-[100px];
+  @apply py-[70px] md:py-[70px];
 }
 
 .section_title {

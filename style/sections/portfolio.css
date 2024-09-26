@@ -1,9 +1,18 @@
+.portfolio{
+  background-color: #ffff
+}
 .portfolio_cards {
   @apply flex flex-col gap-5;
 }
 
 .portfolio_card {
   @apply flex flex-col md:flex-row md:odd:flex-row-reverse items-stretch gap-5 p-2.5 md:p-5 border border-neutral-200 rounded-xl shadow-sm bg-white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s ease-in-out;
+  margin-top:20px ;
+}
+.portfolio_card:hover {
+  transform: translateY(-5px); /* Slight hover effect */
 }
 
 .portfolio_card_media {
@@ -21,11 +30,18 @@
 
 .portfolio_card_tags {
   @apply flex items-center flex-wrap gap-1 text-xs uppercase mb-5;
+  
 }
 
 .portfolio_card_tags > span {
   @apply px-2 py-1 border border-neutral-200 inline-block rounded-sm;
+  border: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+  
 }
+ 
+
 
 .portfolio_card_title {
   @apply text-xl font-bold mb-2;
@@ -41,6 +57,7 @@
 
 .portfolio_card_link {
   @apply duration-300 px-4 py-2 text-sm uppercase bg-white hover:bg-neutral-50 border border-neutral-200 rounded font-bold;
+border: none;
 }
 
 .portfolio_card_link.primary {

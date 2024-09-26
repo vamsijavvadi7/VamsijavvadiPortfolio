@@ -1,6 +1,7 @@
 .navbar {
   @apply sticky top-0 bg-white border-b border-b-neutral-200 z-[1000];
   @apply flex items-center justify-between py-2 md:py-4;
+  border: none;
 
 }
 
@@ -12,7 +13,7 @@
 
 .navbar_brand {  margin-left: 1.5rem;
   
-  @apply text-xl font-bold uppercase z-[1];
+  @apply text-xl font-bold z-[1];
 }
 .navbar_links {
   /* Initial state (hidden) */
@@ -48,7 +49,7 @@ nav ul li {
 
 nav ul a {
   color: #2d2e32;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
   transition: all 0.23s;
   font-size: 1.1rem;
