@@ -47,7 +47,7 @@
         <ul class="navbar_links" id="mobileMenu">
           <% nav.forEach((item) => { %>
           <li>
-            <a title="<%= item.title %>" href="<%= item.link %>">
+            <a title="<%= item.title %>" href="<%= item.link %>"  <%= item.title === 'Resume' ? `target="_blank"` : '' %> >
               <b><%= item.title %></b>
             </a>
           </li>
@@ -264,6 +264,8 @@
       </div>
     </div>
     <!-- Contact Section End -->
+    
+
 
     <!-- Footer Section Start -->
     <footer class="footer">
