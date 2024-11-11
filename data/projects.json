@@ -1,5 +1,14 @@
 [
-  {
+{
+  "title": "Eletronic Health Record Management System (EHR)",
+  "description": "Developed an EHR system with Java, Angular, and Microservices to streamline patient registration, appointment scheduling, and doctor availability. Implemented role-based services with Service Registry and Application Gateway for scalability and fault tolerance. Created intuitive Angular interfaces for staff to manage patient data and appointments, enabling real-time updates. Set up Kafka notifications for system synchronization and used Docker for consistent deployment and scaling. Followed Agile methodology to iteratively enhance system functionality and user experience.",
+  "longdescription":"A dynamic, React-based movie search platform that allows users to browse through an extensive collection of over 1,000,000 movies. The application seamlessly integrates with a live movie database, offering up-to-date information on a variety of films. Users can explore detailed movie data, including cast, budget, plot summary, ratings, runtime, and an overall movie overview. The platform is designed to deliver a smooth, intuitive experience, making it easy to discover new movies, learn more about favorites, and stay informed on trending content.",
+  "source": "",
+  "preview": "",
+  "tags": ["Angular", "Java", "Microservices", "Service Registry", "Application Gateway", "Kafka", "Docker", "Agile"],
+  "thumbnail": "/images/project/ehr.webp"
+},
+{
     "title": "MovieDB",
     "description": "A React-based movie search platform providing real-time access to over 1,000,000 movies. Users can explore detailed film data, including cast, ratings, and trending content, all in a seamless, intuitive experience.",
     "longdescription":"A dynamic, React-based movie search platform that allows users to browse through an extensive collection of over 1,000,000 movies. The application seamlessly integrates with a live movie database, offering up-to-date information on a variety of films. Users can explore detailed movie data, including cast, budget, plot summary, ratings, runtime, and an overall movie overview. The platform is designed to deliver a smooth, intuitive experience, making it easy to discover new movies, learn more about favorites, and stay informed on trending content.",
