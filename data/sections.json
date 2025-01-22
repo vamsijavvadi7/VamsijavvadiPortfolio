@@ -15,6 +15,17 @@
   },
   "experience": [
     {
+      "company": "Janover",
+      "role": "Software Engineer Intern",
+      "duration": "January 2025 – April 2025",
+      "logo": "/images/company/janover.jpg",
+      "points": [
+        "Designed and developed AI-driven JavaScript applications using Node.js, Vue.js, React.js, and MongoDB to streamline workflows and enhance user experiences",
+        "Integrated AI technologies such as ChatGPT4, HubSpot, Twilio, LLMs, and Slack to drive automation and optimize team efficiency across marketing, finance, and sales functions.",
+        "Debugged and enhanced existing systems, ensuring high performance, scalability, and reliability in a dynamic, fast-paced environment."
+      ]
+    },
+    {
       "company": "HeadStarter",
       "role": "Software Fellow",
       "duration": "July 2024 – September 2024",
