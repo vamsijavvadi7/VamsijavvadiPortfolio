@@ -72,12 +72,21 @@
     "thumbnail": "/images/project/career.png"
   },
   {
-    "title": "Rate My Professor",
+    "title": "Rate My Professor AI",
     "description": "Rate My Professor AI is a web app using RAG (Retrieval-Augmented Generation) to offer personalized professor recommendations. Powered by Pinecone vector database and Gemini embedding/generative models, it matches student queries with professor data, delivering tailored top 3 suggestions.",
     "longdescription": "Rate My Professor AI is a cutting-edge web application leveraging RAG (Retrieval-Augmented Generation) architecture to help students find the best professors tailored to their specific needs. Whether you're seeking a professor who focuses on practical applications, industry expertise, or clear explanations, this platform provides personalized recommendations for your courses. Powered by Pinecone vector database and Gemini models, it matches student queries with embeddings of professor data to deliver the top 3 professor suggestions. The integration of Gemini generative response models ensures students get insightful, relevant suggestions that enhance their academic experience.",
     "source": "https://github.com/vamsijavvadi7/ratemyporofessor",
     "preview": "https://ratemyporofessor-ro7b.vercel.app",
     "tags": ["nextjs", "materialui", "Gemini","Pinecone","RAG"],
     "thumbnail": "/images/project/professor.png"
+  },
+  {
+    "title": "Health Assistant AI",
+    "description": "Health Assistant AI is a Next.js web app powered by Gemini models and Firebase, offering personalized health guidance in a fun, companion-like experience. It follows the 70-30 rule, tailoring recommendations based on lifestyle, medications, health conditions (70%), and family history/genetics (30%).",
+    "longdescription": "Rate My Professor AI is a cutting-edge web application leveraging RAG (Retrieval-Augmented Generation) architecture to help students find the best professors tailored to their specific needs. Whether you're seeking a professor who focuses on practical applications, industry expertise, or clear explanations, this platform provides personalized recommendations for your courses. Powered by Pinecone vector database and Gemini models, it matches student queries with embeddings of professor data to deliver the top 3 professor suggestions. The integration of Gemini generative response models ensures students get insightful, relevant suggestions that enhance their academic experience.",
+    "source": "https://github.com/vamsijavvadi7/HealthAssistant-AI",
+    "preview": "https://health-assistant-ai.vercel.app/",
+    "tags": ["nextjs", "materialui", "Gemini","Pinecone","RAG"],
+    "thumbnail": "/images/project/health.png"
   }
 ]
